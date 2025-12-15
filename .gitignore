@@ -1,0 +1,26 @@
+# Virtual environment
+channelaffinity_new/
+
+# Data folders (raw + generated)
+data/**
+output/**
+
+# Notebook-generated artifacts
+notebooks/*.csv
+notebooks/*.joblib
+notebooks/*.pkl
+
+# Keep folder structure
+!data/.gitkeep
+!output/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS / misc
+.env/
+.DS_Store
+Thumbs.db
